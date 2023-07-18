@@ -1,48 +1,63 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500;600;700;900&display=swap');
-*{
+
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     font-family: 'Work Sans', sans-serif;
 }
-.nav-container{
+
+:root {
+    --btn-color: #FF42A5;
+    --second-btn-color: #4EC5F7;
+}
+
+.nav-container {
     height: 120px;
     display: flex;
     padding: 55px 150px 55px 150px;
     justify-content: space-between;
     align-items: center;
 }
-.nav-logo{
+
+.nav-logo {
     display: flex;
     align-items: center;
     gap: 20px;
 }
-.nav-logo img{
+
+.nav-logo img {
     width: 80px;
     height: 40px;
     object-fit: cover;
 }
-.gamer{
+
+.gamer {
     color: #FF42A5;
 }
-.nav-logo h1{
+
+.nav-logo h1 {
     font-size: 45px;
 }
-.nav-link{
+
+.nav-link {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.nav-link > a{
+
+.nav-link>a {
     text-decoration: none;
     margin-right: 20px;
     color: #3C354F;
-    
+
 
 }
-.follow-icon{
+
+.follow-icon {
     display: flex;
     background-color: rgba(11, 2, 35, 0.10);
     border-radius: 10px;
@@ -51,11 +66,76 @@ body{
     justify-content: center;
     align-items: center;
 }
-.follow-icon p{
+
+.follow-icon p {
     color: #3C354F;
 }
-.nav-link .follow-icon img{
+
+.nav-link .follow-icon img {
     margin-left: 10px;
-    width:20px ;
+    width: 20px;
     height: 20px;
+}
+
+/* navbar design end */
+.banner-container {
+
+    display: flex;
+    align-items: center;
+}
+
+.banner-text-area {
+    width: 50%;
+    height: 100vh;
+    background-image: url("images/Group\ 14.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.banner-text-area .banner-title {
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.banner-text-area .goat {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 95px;
+}
+
+.text-content {
+    position: relative;
+    top: 150px;
+    left: 250px;
+}
+
+.text-content button {
+    /* width: 150px;
+    height: 60px; */
+    padding: 10px 30px;
+    border-radius: 40px;
+    border: none;
+    background-color: var(--btn-color);
+    color: #FFF;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-right: 10px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.text-content p{
+    margin-top: 15px;
+}
+.text-content i{
+    margin-right: 8px;
+    width: 20px;
+    height: 20px;
+
+}
+.text-content .btn-blue{
+    background-color: var(--second-btn-color);
 }
