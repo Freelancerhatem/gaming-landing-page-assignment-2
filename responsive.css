@@ -1,0 +1,46 @@
+/* responsive design */
+
+@media screen and (max-width:480px) {
+
+    .nav-logo,
+    .nav-container,
+    .nav-link,
+    .funny-videos,
+    .funny-text-videos,
+    .anniversary-container
+    {
+        flex-direction: column;
+    }
+    .banner-container{
+    flex-direction: column-reverse;
+    height: auto;
+    }
+    .nav-container{
+        height: auto;
+    }
+    .banner-image img{
+        width: 400px;
+        height: auto;
+        
+    }
+    
+    .nav-container{
+        width: 1040px;
+    }
+    .anniversary-text {
+        width: 10vw;
+        height: 10vh;
+
+    }
+    .link-icon i {
+        color: white;
+        font-size: 1rem;
+        margin-right: 1.5rem;
+    }
+    .links a {
+        font-size: .6rem;
+        text-decoration: none;
+        color: white;
+        margin-right: 10px;
+    }
+}

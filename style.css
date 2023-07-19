@@ -22,14 +22,14 @@ body {
     border: none;
     background-color: var(--btn-color);
     color: #FFF;
-    font-size: 20px;
+    font-size: 1.25rem;
     margin-top: 20px;
     font-weight: 600;
     text-transform: uppercase;
 }
 
 .linear-title{
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 700;
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
@@ -38,13 +38,14 @@ body {
 }
 .section-description {
     color: #534C64;
-    font-size: 18px;
+    font-size: 1.2rem;
     font-weight: 400;
     line-height: 30px;
 }
 
 /* shared css end */
 .nav-container {
+    max-width: 100%;
     height:80px;
     display: flex;
     padding: 55px 130px 30px 130px;
@@ -108,23 +109,45 @@ body {
 }
 
 /* navbar design end */
+
 .banner-container {
+    width: 100%;
     height: 100vh;
     display: flex;
+    justify-content: center;
     align-items: center;
+    
+   
+}
+.banner-image{
+    width: 50%;
+}
+.banner-image img{
+    width: 100%;
+    height: 100vh;
+    
+}
+
+.text-content {
+    position: relative;
+    top: 150px;
 }
 
 .banner-text-area {
-    width: 50%;
+    width: 760px;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-image: url("images/Group\ 14.png");
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
 }
 
 .banner-text-area .banner-title {
     color: #0B0223;
-    font-size: 48px;
+    font-size:3rem;
     font-weight: 600;
     text-transform: uppercase;
 }
@@ -134,13 +157,7 @@ body {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 95px;
-}
-
-.text-content {
-    position: relative;
-    top: 150px;
-    left: 250px;
+    font-size: 6rem;
 }
 
 .text-content p {
@@ -160,19 +177,11 @@ body {
 
 
 
-.banner-image {
-    position: relative;
-    right: 0;
-    bottom: 0;
-    top: 10px;
-
-
-}
 
 /* gamer container style */
 .gamer-container {
-    width: 100%;
-    height: 600px;
+    max-width: 100vw;
+    height: 80vh;
     margin-bottom: 100px;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
     display: flex;
@@ -222,10 +231,10 @@ body {
     text-align: center;
     margin-bottom: 50px;
 }
-.funny-text-images{
+.funny-text-videos{
     display: flex;
 }
-.funny-text-images .image-box img{
+.funny-text-videos .image-box img{
     width: 300px;
     margin-right: 10px;
     margin-bottom: 10px;
@@ -274,7 +283,7 @@ body {
     margin-bottom: 70px;
 }
 .anniversary-text{
-    margin-right: 250px;
+    
     width: 341px;
     height: 180px;
 }
@@ -462,3 +471,6 @@ body {
     text-align: center;
     margin-top:20px ;
 }
+
+
+
