@@ -9,6 +9,7 @@
 
 body {
     font-family: 'Work Sans', sans-serif;
+    border: 4px solid rgb(151, 252, 0);
 }
 
 :root {
