@@ -7,63 +7,185 @@
     .nav-link,
     .funny-videos,
     .funny-text-videos,
-    .anniversary-container
-    {
+    .anniversary-container,
+    .play-games-container,
+    .career-container {
         flex-direction: column;
     }
-    .banner-container{
-    flex-direction: column-reverse;
-    height: auto;
-    }
-    .nav-container{
+
+    .banner-container {
+        flex-direction: column-reverse;
         height: auto;
     }
-    .banner-image img{
+
+    .nav-container {
+        height: auto;
+    }
+
+    .banner-image img {
         width: 100%;
         height: 40vh;
-        
+
     }
-    .banner-text-area{
+
+    .banner-text-area {
         height: 60vh;
     }
-    
-    .nav-container{
+
+    .nav-container {
         width: 1040px;
     }
+
     .gamer-container {
         flex-direction: column;
         height: auto;
     }
 
     .image-box {
-       
+
         display: flex;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
         text-align: center;
     }
+
     .gamer-img img {
         width: 500px;
         height: 500px;
     }
-    .overlay{
+
+    .overlay {
         width: 71.8%;
+        top: 0.15rem;
+        left: 3.3rem;
     }
+
+
+    /* anniversary responsive area */
+    .anniversary-container {
+        height: 70vh;
+        margin-bottom: 0px;
+    }
+
     .anniversary-text {
-        width: 10vw;
+        width: 100vw;
         height: 10vh;
+        text-align: center;
+        margin-top: 1rem;
 
     }
-    .link-icon i {
+
+    .anniversary-image>img {
+        width: 100%;
+        margin-top: 9rem;
+        height: 50vh;
+    }
+
+    .bottom-img img {
+        width: 7rem;
+        height: 8rem;
+        position: absolute;
+        margin-top: -4rem;
+        margin-left: -2rem;
+    }
+
+    .anniversary-text h1 {
+        font-size: 1rem;
+    }
+
+    /* anniversary responsive area end */
+
+
+    /* gamer container start*/
+    .play-games-container {
+        height: 100vh;
+        margin-bottom: 5.5rem;
+        margin-top: 15rem;
+    }
+
+    .gamer-text {
+        width: 100vw;
+        height: 5vh;
+        text-align: center;
+
+
+    }
+
+    .gamer-image>img {
+        width: 55vw;
+    height: 50vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+        
+    }
+
+    .bottom-right-img img {
+    width: 7rem;
+    height: 8rem;
+    position: absolute;
+    margin-top: -4rem;
+    margin-left: 12rem;
+    }
+
+    .gamer-text h1 {
+        font-size: 1rem;
+    }
+
+    /* gamer container end*/
+
+
+    .linear-title .link-icon i {
         color: white;
         font-size: 1rem;
         margin-right: 1.5rem;
     }
+
+    .linear-title {
+        font-size: 2rem;
+    }
+
     .links a {
         font-size: .6rem;
         text-decoration: none;
         color: white;
         margin-right: 10px;
     }
+
+    .funny-videos {
+        margin-bottom: 0;
+    }
+
+    /* career responsive part */
+    .career-container{
+        height: 140vh;
+    }
+    .career-text {
+        width: 80%;
+        height: 80%;
+        font-size: 0.4rem;
+        margin-top: 2rem;
+        margin-left: 0px;
+    }
+
+    .career-bg-image img {
+        height: 20vh;
+    }
+    .btn-white {
+        padding: 5px 8px;
+        font-size: .45rem;
+        font-weight: 700;
+        margin-top: 0px;
+        text-transform: uppercase;
+    }
+    .career-bg-image img {
+        height: 50vh;
+        width: 100%;
+        padding-bottom: 2rem;
+        margin-bottom: 2rem;
+    }
+    .h4-list {
+        align-items: center;
+    }
+   
 }

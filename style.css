@@ -294,8 +294,8 @@ body {
 }
 
 .anniversary-image img{
-    width: 480px;
-    height: 520px;
+    width: 30rem;
+    height: 32.5rem;
 
 }
  .bottom-img img{
@@ -306,9 +306,34 @@ body {
     margin-left: -100px;
 
 }
+
+
+/* gamer container */
 .play-games-container{
+    max-width: 1240px;
+    height: 100vh;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 70px;
     flex-direction: row-reverse;
 }
+.gamer-text{
+    
+    width: 341px;
+    height: 180px;
+}
+.gamer-text h1{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.gamer-image img{
+    width: 30rem;
+    height: 32.5rem;
+
+}
+
 .bottom-right-img img{
     width: 200px;
     height: 220px;
@@ -318,6 +343,8 @@ body {
     
     
 }
+
+
 /* career container css style */
 .career-container{
     max-width: 100%;
