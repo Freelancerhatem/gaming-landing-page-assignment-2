@@ -9,6 +9,9 @@
 
 body {
     font-family: 'Work Sans', sans-serif;
+    border:5px solid yellow;
+    /* overflow-x: hidden;
+    min-width:100vw; */
 }
 
 :root {
@@ -114,32 +117,37 @@ body {
 
 /* navbar design end */
 
+
 .banner-container {
-    width: 100%;
-    height: 100vh;
+    min-width: 100%;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    border:5px solid red;
     
    
 }
-.banner-image{
-    width: 50%;
-}
+
 .banner-image img{
-    width: 45vw;
-    height: 100vh;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    
     
 }
 
-.text-content {
-    position: relative;
-    top: 150px;
-}
+
+   
+
 
 .banner-text-area {
-    width: 760px;
-    height: 100vh;
+    min-width: 50%;
+    min-height: 100vh;
+    position: absolute;
+    top: 150px;
+    left: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -184,8 +192,6 @@ body {
 
 /* gamer container style */
 .gamer-container {
-    max-width: 100vw;
-    height: 80vh;
     margin-bottom: 100px;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
     display: flex;
@@ -201,9 +207,9 @@ body {
 }
 
 .gamer-img img {
-    width: 700px;
-    height: 500px;
-    padding: 50px 0px 0px 30px;
+    width: 500px;
+    height: 450px;
+    padding: 30px;
 }
 
 .gamer-text-area h3 {
@@ -362,30 +368,31 @@ body {
     color: white;
     margin-left: 160px;
     width: 680px;
+    height: auto;
 }
 .h4-list{
     
     display: flex;
-    margin-right: 90px;
+    gap: 50px;
+   
 }
-.left-part{
+.left-part h4{
     
     text-align: start;
-    margin-right: 40px;
-    font-weight: 600;
-    line-height: 30px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    
 }
-.right-part{
+.right-part h4{
     
     text-align: end;
-    font-weight: 600;
-    line-height: 30px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
 
 }
-.btn-white{
-    background-color: white;
-    color: var(--btn-color);
-}
+
 .career-description{
     color: #FFF;
     margin-top: 20px;
@@ -496,6 +503,13 @@ body {
     text-align: center;
     margin-top:20px ;
 }
-
+.btn-white{
+    
+    background-color: white;
+    color: var(--btn-color);
+    width:90px ;
+    font-size: .4rem;
+    padding: 8px 10px;
+}
 
 

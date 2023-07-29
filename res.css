@@ -1,0 +1,215 @@
+@media screen and (max-width:520px) {
+ .nav-container,.career-container,.nav-logo,.nav-link,.banner-container,.gamer-container,.funny-videos,.funny-text-videos,.anniversary-container{
+    flex-direction: column;
+ }
+
+/* banner container */
+.banner-container{
+    flex-direction: column-reverse;
+    margin-top: 10rem;
+}
+.banner-text-area {
+   min-width: 100vw;
+   min-height: 50vh;
+   
+   
+   
+}
+.text-content{
+    margin-top: 70px;
+}
+
+.banner-image img{
+    margin: 0 auto;
+    width: 230px;
+    height: 320px;
+    left: 5px;
+    top: 25px;
+    
+    
+}
+.banner-text-area .banner-title,.banner-text-area .goat{
+    font-size: 1rem;
+}
+.banner-text-area{
+    top: 50vh;
+    padding-top: 10px;
+}
+.btn-primary,.btn-blue,.btn-white {
+    padding: 3px 6px;
+    border-radius: 5px;
+    border: none;
+    background-color: var(--btn-color);
+    color: #FFF;
+    font-size: 0.5rem;
+    margin-top: 4px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+/* banner container end*/
+
+/* anniversary section */
+.anniversary-container{
+    margin-bottom: 10px;
+    height: auto;
+    
+}
+.anniversary-image img{
+    margin-top: 10px;
+    width: 14rem;
+    height: auto;
+
+}
+.bottom-img img{
+    width: 100px;
+    height: 90px;
+    position: absolute;
+    margin-top: -60px;
+    margin-left: -60px;
+
+}
+
+.anniversary-text{
+    
+    width: 341px;
+    height: auto;
+}
+.anniversary-text h1{
+    font-size: 3rem;
+    font-weight: 700;
+}
+/* anniversary container end */
+.play-games-container{
+    flex-direction: column;
+}
+
+.gamer-image img{
+    margin-top: 40px;
+    width: 14rem;
+    height: auto;
+    
+
+}
+.bottom-right-img img{
+    width: 100px;
+    height: 90px;
+    position: absolute;
+    margin-top: -60px;
+    margin-left: 160px;
+
+}
+.gamer-text{
+    
+    width: 341px;
+    height: auto;
+    margin-bottom: 0;
+    margin-top: 50px;
+}
+/* gamer container end */
+
+/*Genre category */
+ .genre-container{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    
+    grid-template-columns: repeat(3,1fr);
+    
+}
+.genre-items{
+    width: 80px;
+    height: 20px;
+    margin-right: 5px;
+    border-radius: 10px;
+    background: #FFF;
+    display: flex;
+    align-items: center;
+    transition: .1s;
+
+}
+.genre-items img{
+    width: 15px;
+    height: 15px;
+    padding: 2px;
+   
+}
+.genre-items h5{
+    margin-left: 2px;
+    font-size: 5px;
+    font-weight: normal;
+}
+
+/* career-container */
+.career-container{
+    margin: 0 auto;
+    width: 340px;
+    height: auto;
+    
+      
+}
+.career-text{
+    width: 100%;
+    margin-left: 0;
+    padding: 30px;
+}
+.career-text h1{
+    font-size:16px ;
+    text-align: center;
+}
+.career-text p{
+    font-size:8px ;
+    text-align: justify;
+    line-height: 10px;
+}
+.left-part h4{
+    
+    text-align: start;
+    font-weight: normal;
+    font-size: 8px;
+    line-height: 15px;
+    
+}
+.right-part h4{
+    
+    text-align: end;
+    font-weight: normal;
+    font-size: 8px;
+    line-height: 15px;
+
+}
+.btn-white{
+    background-color: #FFF;
+    color: var(--btn-color);
+    font-size: 5px;
+    font-weight: 600;
+}
+.career-bg-image img{
+    width: 200px;
+    height: auto;
+    margin: o auto;
+}
+/* end career */
+.footer-container{
+    width: 100%;
+    height: auto;
+    background: #0B0223;
+    padding-top: 100px;
+
+}
+.overlay{
+    width: 71.8%;
+}
+.funny-text-videos .image-box img{
+    width: 300px;
+    margin: 0 auto;
+}
+.btn-white{
+    
+    
+    width:50px ;
+    font-size: .2rem;
+    
+}
+  
+}
